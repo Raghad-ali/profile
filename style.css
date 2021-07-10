@@ -38,8 +38,84 @@
     position: absolute; top: 150px;right:42%;
     color:rgb(151, 111, 111);
     font-size:5rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 0.2s ease-in-out;  
+}
+.fa-long-arrow-alt-up:hover {
+  color:rgb(117, 63, 63);
 
+  cursor: pointer;
+  transform: scale(1.1);
+}
+button {
+color: #1D9AF2;
+background-color: #292D3E;
+border: 1px solid #1D9AF2;
+border-radius: 4px;
+padding: 0 15px;
+cursor: pointer;
+height:32px;
+font-size:14px;
+transition: all 0.2s ease-in-out;
+}
+button:hover {
+transform: scale(1.1);
 }
 
+.heart {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left:300px;
+  height: 70px;
+  width: 70px;
+}
+.heart:hover{
+  transform: scale(1.1);
+}
+a:hover{
+cursor:pointer;
+transform: scale(1.1);
+}
+.checked {
+  position: absolute;
+  top:140px;left:230px;
+  color: rgb(216, 207, 190);
+  font-size:70px;
+}
+.checked:hover{
+  transform: scale(1.1);
+}    #cut-diamond {
+  border-style: solid;
+  border-color: transparent transparent rgb(236, 219, 219) transparent;
+  border-width: 0 25px 25px 25px;
+  height: 0;
+  width: 50px;
+  box-sizing: content-box;
+  position: relative;
+  margin: 20px 0 50px 0;
+  position: absolute;
+  top: 100px;
+  right:150px;
+  box-shadow: 5px 5px 6px red inset ;
+}
+#cut-diamond:after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: -25px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: rgb(197, 158, 158 )transparent transparent transparent;
+  border-width: 70px 50px 0 50px;
+}
+#cut-diamond:hover{
+  transform: scale(1.1);
+} 
+.logo:hover{
+  transform: scale(1.1);
+}
 
